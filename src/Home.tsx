@@ -39,7 +39,7 @@ return (
     placeholder='Enter promo code'
     className='flex-1 px-3 py-2 border border-gray-300 rounded outline-none'
     />
-    <button className='bg-[#EBA463] text-white rounded hover:bg-orange-500 transition overflow-hidden'>
+    <button className='bg-[#EBA463] w-15 text-white rounded hover:bg-orange-500 transition overflow-hidden'>
    Apply
     </button>
     </div>
