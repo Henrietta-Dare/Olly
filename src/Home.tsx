@@ -11,21 +11,22 @@ return (
      </div>
     
    <div className='flex w-[100%]  flex-col lg:flex-row gap-8'>
-    <div 
-    style={{
-       backgroundImage:'url(/hoodie.webp)',
-       backgroundSize: 'auto',  
-       position: 'relative',
-       backgroundPosition: 'center top',
-       backgroundRepeat: 'repeat',
-
-     }} 
-     className='relative bg-[#f7f7f7] p-8 rounded-lg shadow-sm overflow-hidden lg:px-98'>
-    
+    <div className=' relative bg-[#f7f7f7] p-8 rounded-lg shadow-sm overflow-hidden lg:px-98'>
     <h1 className=' text-3xl md:text-4xl lg:text-5xl font-bold text-[#2D4C41] mb-2 relative lg:right-90 '>
       Shopping This Spring 
     </h1>
+    <div className='absolute w-90 top-30 right-45 text-2xl md:text-3xl opacity-90 transform rotate-340'>
+    <img src='/hoodies.png' alt=''/>
     </div>
+    <div className='absolute lg:w-60 top-40 left-180 text-2xl md:text-3xl opacity-90 transform rotate-340'>
+    <img src='/shirt.png' alt=''/>
+    </div>
+    <div className='absolute lg:w-35 w-20 lg:top-5 top-12 lg:right-15 right-6 text-2xl md:text-3xl opacity-90'>
+    <img src='/sneakers.png' alt=''/>
+    </div>
+    </div>
+   
+   
 
     <div className='lg:basis-1/3 flex flex-col space-y-6'>
     <div className='bg-[#f7f7f7] p-6 rounded-lg shadow-sm'>
@@ -48,19 +49,11 @@ return (
     </p>
     </div>
   
-  <div 
-  style={{
-    backgroundImage:'url(/stars.WEBP)',
-    backgroundSize: 'cover',  
-    position: 'relative',
-    backgroundPosition: 'center top',
-    backgroundRepeat: 'no-repeat',
-
-  }} 
-  className='bg-[#f7f7f7] p-6 rounded-lg shadow-sm relative'>
+  <div className='bg-[#f7f7f7] p-6 rounded-lg shadow-sm relative'>
   <h2 className='text-sm md:text-md font-semibold mb-2 mt-6 lg:mr-35'>Free Shipping</h2>
   <p className='text-xs md:text-sm text-gray-600 lg:mr-19'>by courier to the house</p>
-  <div className='absolute top-0 right-0 text-2xl md:text-3xl opacity-10'>
+  <div className='absolute w-30 right-1 bottom-4 lg:w-35 lg:bottom-1 lg:right-0 text-2xl md:text-3xl opacity-10'>
+  <img src='/star.png' alt=''/>
   </div>
   </div>
   </div>
@@ -109,24 +102,25 @@ Lifeproof
 <p className='text-xs md:text-sm lg:right-30 relative'>
 Original gadgets
 </p>
+<div className='absolute hidden md:hidden lg:block lg:absolute md:w-20 lg:w-35 lg:bottom-4 lg:right-130 text-2xl md:text-3xl opacity-90'>
+  <img src='/ball.png' alt=''/>
+  </div>
 </div>
 
-<div 
-style={{
-  backgroundImage:'url(/bags.webp)',
-  backgroundSize: 'cover',  
-  position: 'relative',
-  backgroundPosition: 'center top',
-  backgroundRepeat: 'no-repeat',
+<div className='bg-white p-6 rounded-lg shadow-md flex-1'>
 
-}} 
-className='bg-white p-6 rounded-lg shadow-md flex-1'>
 <h3 className='text-lg md:text-xl font-semibold mb-2 lg:right-28 relative'>
 Skyway Store
 </h3>
 <p className='text-gray-600 text-xs md:text-sm lg:right-34 relative md:mt-[-0.5rem]'>
 Brand store
 </p>
+<div className=' absolute hidden md:hidden lg:block lg:absolute md:w-10 lg:w-30 md:bottom-45 lg:bottom-11 right:50 md:right-15 lg:right-28 text-2xl md:text-3xl '>
+<img src='/bag.png' alt=''/>
+</div> 
+<div className=' absolute hidden md:hidden lg:block lg:absolute md:w-10 lg:w-30 md:bottom-45 lg:bottom-3 md:right-35 lg:right-55 text-2xl md:text-3xl '>
+<img src='/bag.png' alt=''/>
+</div>
 </div>
 
 </div>
