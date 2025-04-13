@@ -3,7 +3,7 @@ import { Star } from 'lucide-react';
 function Home() {
 return (
   <div className='w-full py-6 space-y-12'>
-    <div className='flex space-x-3 px-[5.5rem] md:space-x-8 font-medium mt-1 md:ml-[-2rem] ml-[-5.5rem] lg:ml-[-5.5rem]'>
+    <div className='lg:flex space-x-3 px-[5.5rem] md:space-x-8 font-medium mt-1 md:ml-[-2rem] ml-[-5.5rem] lg:ml-[-5.5rem] hidden'>
          <span className='text-gray-900  font-bold opacity-10'>News</span>
          <span className='text-black-900 font-bold'>Marketplace</span>
          <span className='text-gray-900 font-bold opacity-10'>Templates</span>         
@@ -102,7 +102,7 @@ Lifeproof
 <p className='text-xs md:text-sm lg:right-30 relative'>
 Original gadgets
 </p>
-<div className='absolute hidden md:hidden lg:block lg:absolute md:w-20 lg:w-35 lg:bottom-4 lg:right-130 text-2xl md:text-3xl opacity-90'>
+<div className='absolute hidden md:hidden lg:block lg:absolute md:w-20 lg:w-35 lg:top-185 lg:right-128 text-2xl md:text-3xl opacity-90'>
   <img src='/ball.png' alt=''/>
   </div>
 </div>
@@ -115,10 +115,10 @@ Skyway Store
 <p className='text-gray-600 text-xs md:text-sm lg:right-34 relative md:mt-[-0.5rem]'>
 Brand store
 </p>
-<div className=' absolute hidden md:hidden lg:block lg:absolute md:w-10 lg:w-30 md:bottom-45 lg:bottom-11 right:50 md:right-15 lg:right-28 text-2xl md:text-3xl '>
+<div className=' absolute hidden md:hidden lg:block lg:absolute md:w-10 lg:w-30 md:bottom-45 lg:top-185 right:50 md:right-15 lg:right-27 text-2xl md:text-3xl '>
 <img src='/bag.png' alt=''/>
 </div> 
-<div className=' absolute hidden md:hidden lg:block lg:absolute md:w-10 lg:w-30 md:bottom-45 lg:bottom-3 md:right-35 lg:right-55 text-2xl md:text-3xl '>
+<div className=' absolute hidden md:hidden lg:block lg:absolute md:w-10 lg:w-30 md:bottom-45 lg:top-185 md:right-35 lg:right-55 text-2xl md:text-3xl '>
 <img src='/bag.png' alt=''/>
 </div>
 </div>
